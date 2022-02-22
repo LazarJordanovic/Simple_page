@@ -1,0 +1,590 @@
+*,html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Style about */
+.about {
+    height: 100%;
+    width: 100%;
+    
+}
+.abt {
+    width: 85%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+}
+.itm {
+    width: 85%;
+}
+.abt img {
+    width: 500px;
+    height: 700px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-left: 0px;
+}
+.text {
+    width: 500px;
+    height:100%;
+    padding: 15px;
+    position: relative;
+    float: right;
+    margin-top: 150px;
+    margin-right: 0px;
+}
+.text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.text h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.text h1 span {
+    color: rgb(241, 70, 8);
+}
+.text p {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.text a {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text a:hover {
+    color:red;
+    cursor:pointer;
+}
+/* Style Services */
+.services {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+.serv {
+    width: 85%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+}
+.services h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.services h2 span {
+    color: rgb(54, 66, 235);
+    font-weight: bold;
+}
+#paragraf {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    left: 30px;
+    right: -200px;
+}
+.first_staff {
+    width: 250px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.first_staff img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    left: 50px;
+}
+.first_staff h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.first_staff p {
+    padding: 10px;
+    text-align: center;
+}
+.first_staff a {
+    text-decoration: none;
+    color: rgb(70, 70, 221);
+    cursor:pointer;
+}
+.first_staff a:hover{
+    font-size: 20px;
+}
+.second_staff {
+    width: 250px;
+    height: 350px;
+    margin-left: 600px;
+    margin-top: -350px;
+}
+.second_staff img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    left: 50px;
+}
+.second_staff h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.second_staff p {
+    padding: 10px;
+    text-align: center;
+}
+.second_staff a {
+    text-decoration: none;
+    color: rgb(70, 70, 221);
+    cursor:pointer;
+}
+.second_staff a:hover {
+    font-size: 20px;
+}
+.thirt_staff {
+    width: 250px;
+    height: 350px;
+    float: right;
+    margin-top: -350px;
+    margin-left: 20px;
+}
+.thirt_staff img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    left: 50px;
+}
+.thirt_staff h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.thirt_staff p {
+    padding: 10px;
+    text-align: center;
+}
+.thirt_staff a {
+    text-decoration: none;
+    color: rgb(70, 70, 221);
+    cursor:pointer;
+}
+.thirt_staff a:hover {
+    font-size: 20px;
+}
+/* Style Our History */
+.our_history {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+.history {
+    width: 85%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+    border: 1px solid white;
+}
+.history img {
+    width: 600px;
+    height: 700px;
+    float: right;
+    margin-top: -790px;
+}
+.history_text {
+    width: 500px;
+    height: 100%;
+    margin-top: 320px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+.history_text h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+.history_text span {
+    color: rgb(241, 70, 8);
+}
+.history_text h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.history_text p {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+.history_text a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.history_text a:hover {
+    color:red;
+    cursor:pointer;
+}
+/* Style Creativity */
+.creativity {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.create {
+    width: 85%;
+    height: 900px;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+}
+.text1 {
+    position: relative;
+    height: 100%;
+    width: 87%;
+    margin: 0px 100px auto;
+}
+.text1 h3 {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.text1 h2 {
+    color: rgb(241, 70, 8);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.text1 p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 10px;
+    margin: 0px 50px auto;
+}
+.text1 button {
+    border: none;
+    background: none;
+    text-align: center;
+    position: relative;
+    margin-left: 43%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.text1 button:hover {
+    color: orangered;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+}
+/* Style What We Offer */
+.wwoffer {
+    width: 100%;
+    height: 100%;
+}
+.compu {
+    width: 85%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+}
+.compu img {
+    position: relative;
+    height: 600px;
+    width: 75%;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 200px;
+    margin-top: -350px;   
+}
+.text_computer {
+    position: relative;
+    background-color:rgb(177, 177, 235);
+    width: 770px;
+    height: 480px;
+    text-align: center;
+    padding: 15px;
+    margin-top: -625px;
+    margin-left: 330px;
+    
+}
+.text_computer h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text_computer p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.text_computer button {
+    border:none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.text_computer button:hover {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.text_heading h1 {
+    position: relative;
+    padding: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 50px;
+    margin-top: 220px;
+    width: 50px;
+    text-align: center;
+}
+.text_heading h1 span {
+    color: blue;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Style contact */
+.count {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.number {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    top: 200px;
+    background-color: rgb(230, 184, 180);
+    
+}
+.numbers {
+    width: 85%;
+    top: 0px;
+    bottom: 0px;
+    right: 100px;
+    left: 150px;
+    position: relative;
+}
+.numbers1  {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    top: 150px;
+    left: 0px;
+}
+.numbers1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.numbers1 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.numbers2 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin-top: 45px;
+    margin-left: 400px;
+}
+.numbers2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.numbers2 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.numbers3 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 800px;
+}
+.numbers3 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.numbers3 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.numbers4 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 1200px;
+}
+.numbers4 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.numbers4 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.start {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-top: 180px;
+    border: 1px solid rgb(216, 124, 118);
+    background-color: rgb(216, 124, 118);
+}
+.start p {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.start button {
+    position: relative;
+    background-color: rgb(216, 124, 118);
+    float:right;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    margin-right: 250px;
+    margin-top: -25px;
+}
+.start button:hover{
+    cursor: pointer;
+    background-color: rgb(216, 124, 118);
+    color: red;
+    border: none;
+    font-size: 27px;
+}
+.contact {
+    position: relative;
+    width: 85%;
+    height: 350px;
+    margin-top: 120px;
+    left: 150px;
+    right: 100px;
+    margin-bottom: 150px;
+}
+.query {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    top: 150px;
+    left: 0px;
+}
+.query h1 {
+    font-size: 40px;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+.query h1 span {
+    color: black;
+    font-weight: bolder;
+}
+.query h2 {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.comment {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    float: right;
+    right: 20px;
+}
+.comment input[type= "email"]{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+    background-color: cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.comment input[type="email"]:hover {
+    border-radius: 10px;
+    cursor: pointer;
+}
+.comment input[type="email"]:checked {
+    border: none;
+}
+.comment button {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    bottom: 50px;
+    left: 330px;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+.comment button:hover{
+    border: none;
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+}

@@ -1,0 +1,236 @@
+@media screen and (max-width:768px){
+    body {
+        width: 100%;
+    }
+    .container1 {
+        display: none;
+    }
+    /* Style for navbar and slider */
+    .container {
+        width: 100%;
+    }
+    .container nav {
+        width: 100%;
+        /* margin-left: -10px; */
+    }
+    .container nav ul {
+        margin-left: -80px;
+        margin-top: 40px;
+    }
+    .logo img {
+        margin-left: 80px;
+    }
+    .sld {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slider {
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+    .heading {
+        margin-top: 660px;
+        margin-left: 150px;
+    }
+    /* Style for about */
+    .about {
+        width: 100%;
+    }
+    .abt {
+        width: 100%;
+        margin-right: 250px;
+    }
+    .abt img {
+        position: relative;
+        left: 80px;
+    }
+    .about .text {
+        margin-top: -170px;
+        margin-right: 250px;
+    }
+    /* Style for services */
+    .serv {
+        width: 100%;
+        margin-top: 450px;
+    }
+    .first_staff {
+        position: relative;
+        left: -50px;
+    }
+    .second_staff {
+        position: relative;
+        right: 280px;
+    }
+    .thirt_staff {
+        position: relative;
+        right: -40px;
+    }
+    /* Style for history */
+    .history {
+        width: 100%;
+    }
+    .history img {
+        position: relative;
+        left: -50px;
+        top: -20px;
+    }
+    .history_text {
+        position: relative;
+        top: 550px;
+        left: 100px;
+    }
+    /* Style for creativity */
+    .create {
+        width: 100%;
+        margin-top: 300px;
+    }
+    .text1 {
+        margin-left: 50px;
+    }
+    .compu {
+        width: 100%;
+    }
+    .text_heading h1 {
+        width: 600px;
+        height: 60px;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        letter-spacing: 10px;
+        margin-top: 0px;
+    }
+    /* Style for what we offer */
+    .wwoffer img {
+        position: relative;
+        top: 450px;
+        width: 750px;
+        right: 250px;
+        bottom: 100px;
+    }
+     .text_computer {
+        position: relative;
+        width: 450px;
+        top: 450px;
+        right: 300px;
+    }
+    /* Style for count and  contact */
+    .number {
+        width: 100%;
+        margin-top: 300px;
+    }
+    .numbers {
+        width: 100%;
+    }
+    .numbers1 {
+        
+        margin-left: 100px;
+    }
+    .numbers2 {
+        position: relative;
+        left: 150px;
+    }
+    .numbers3{
+        position: relative;
+        top: 150px;
+        left: -550px;
+    }
+    .numbers4 {
+        position: relative;
+        top: 150px;
+        left: -600px;
+    }
+    .start {
+        width: 100%;
+    }
+    .start p {
+        margin-left: 10px;
+    }
+    .start button {
+        position: relative;
+        top: 0px;
+        left: 180px;
+    }
+    .contact {
+        width: 100%;
+    }
+    .query {
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }
+    .comment {
+        position: relative;
+        left: -270px;
+    }
+    /* Style for footer */
+    .kraj {
+        position: relative;
+        width: 100%;
+        height: 1500px;
+        margin-left: -150px;
+        margin-top: 0px;
+        border: 1px solid rgb(177, 177, 235);
+        margin-right: 0px;
+    }
+    .copyright {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        margin-top: 150px;
+        border: 1px solid rgb(177, 177, 235);
+    }
+    footer .privacy{
+        position: relative;
+        width: 400px;
+        height: 50px;
+        left: -720px;
+        top: 0px;
+    }
+    #copy {
+       position: relative;
+       left: -100px;
+       top:0px;
+    }
+    .info {
+        position: relative;
+        margin-left: 100px;
+        margin-top: -50px;  
+    }
+    .info img {
+        margin-top: -750px;
+        margin-left: 0px;
+    }
+    .social a {
+        margin-top: 500px;
+    }
+    .social img {
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+     .kraj, .footer-col1 {
+        position: relative;
+        left: -400px;
+        margin-top: -100px;
+    }
+    .footer-col1 ul {
+        border: 1px solid rgb(177, 177, 235);
+        margin-top: -100px;
+        margin-left: 450px;
+    }
+    .footer-col1 ul li  {
+        margin-bottom: 100px;
+        width: 400px;
+        height: 30px;
+        text-align: justify;
+    }
+    .kraj, .footer-col2 {
+        position: relative;
+        border: 1px solid rgb(177, 177, 235);
+        left: -650px;
+        top: 350px;
+    }
+    .footer-col3 {
+        position: relative;
+        left: -650px;
+        top: 350px;
+    }
+}

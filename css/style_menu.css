@@ -1,0 +1,97 @@
+*, html ,body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    height: 110px;
+    /* position: fixed;
+    z-index: 1; */
+    width: 100%;
+}
+/* .bojahedera {
+    background-color: rgb(177, 177, 235);
+    opacity: 0.8;
+} */
+/* .bezboje {
+    background-color: red;
+} */
+/* .nav-mobile {
+    display: none;
+} */
+.container {
+    width: 85%;
+    height: 110px;
+    margin-left: 150px;
+    margin-right: 100px;
+    justify-content: space-between;   
+}
+ul {
+    list-style: none;
+    margin-right: 280px;
+   
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+header nav {
+    float: right;
+    margin-top: -40px;
+}
+header nav ul li a {
+    padding-right: 20px;
+    margin-right: 0px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+header nav ul li a:hover{
+    color: rgb(238, 43, 9);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.8s ease-in;
+}
+.row {
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
+}
+.logo img {
+    height: 50px;
+    width: 210px;
+    float: left;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+#color{
+    color: tomato;
+}
+#color:hover {
+    color: black;
+    font-weight: bold;
+    transition: all 0.8s ease-in;
+    text-decoration: none;
+}
+#pozadina {
+    position: absolute;
+    height: 35px;
+    width: 195px;
+    padding: 10px;
+    margin-top: -25px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: tomato;
+}
+#pozadina:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.8s ease-in;
+    text-decoration: none;
+}

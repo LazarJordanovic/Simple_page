@@ -1,0 +1,454 @@
+@media screen and (max-width:500px) {
+    body {
+        width: 100%;
+    }
+    .container1 {
+        display: none;
+    }
+    .logo img{
+        position: absolute;
+        float: none;
+        margin-top: -20px;
+        left: 60px;
+    }
+    .container {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav {
+        display: none;
+        width: 100%;
+    }
+    header nav {
+        position: absolute;
+        display: block;
+        background-color: rgb(177, 177, 235);
+        float: left;
+        width: 100%;
+        height: 500px;
+        margin-top: -20px;
+    }
+    ul li {
+        flex-direction: column;
+        position: relative;
+        display: inline-block;
+        margin-left: 140px;
+        margin-top: -50px;
+        width: 400px;
+        height: 36px;
+    }
+    header nav ul li a {
+        color: white;
+    }
+    header nav ul li a:hover {
+        font-size: 20px;
+        color: tomato;
+    }
+    #pozadina {
+        margin-left: -95px;
+        margin-top: 10px;
+    }
+    .section {
+        width: 100%;
+        margin-top: 400px;
+    }
+    .sld {
+        width: 100%;
+        margin-top: 170px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    section .slider {
+        width: 300px;
+        height: 450px;
+        margin-right: 30px;
+        margin-top: -50px;
+    }
+    .item img {
+        width: 300;
+        height: 400px;
+        margin-top: 0px;
+        margin-left: 0px;
+        float: left;
+    }
+    .slider .left img {
+        margin-right: -150px;
+    }
+    .slider .right img {
+        margin-right:-20px;
+    }
+    .heading {
+        position:absolute;
+        margin-top: 600px;
+        right: 0px;
+        text-align: center;
+    }
+    .heading h2 {
+        text-align: center;
+    }
+    .heading p {
+        text-align: center;
+    }
+    /* Style about for mobile devices */
+    .about {
+        width: 100%;
+    }
+    .abt {
+        position: relative;
+        width: 100%;
+        left: 80px;
+    }
+    .abt img {
+        position: relative;
+        width: 350px;
+        height: 450px;
+        top: -50px;
+        right: 100px;
+    }
+    .text {
+        position: relative;
+        width: 400px;
+        left: 120px;
+        top: 0px;
+        text-align: center;
+    }
+    /* Style services for mobile devices */
+    .services {
+        width: 100%;
+        margin-top: 600px;
+    }
+    .serv h2 {
+        font-size: 50px;
+        margin-top: 0px;
+        
+    }
+    .serv {
+        width: 100%;
+        margin-left: -150px;
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+    .first_staff {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .second_staff {
+        position: absolute;
+        top: 450px;
+        left: -430px;
+    }
+    .thirt_staff {
+        position: absolute;
+        top: 850px;
+        left: -100px;
+    }
+    /* Style Our History for mobile devices */
+    .our_history {
+        width: 100%;
+        margin-top: 900px;
+        border: 1px solid white;
+    }
+    .history {
+        width: 100%;
+    }
+    .history img {
+        position: absolute;
+        width: 350px;
+        height: 450px;
+        margin-top: -850px;
+        left: 50px;
+    }
+    .history .history_text {
+        position: relative;
+        top: 230px;
+        right: 220px;
+        left: -50px;
+        bottom: 100px;
+        text-align: center;
+    }
+    /* Style creativity for mobile devices */
+    .creativity {
+        width: 100px;
+        margin-left: 20px;
+        margin-top: -300px;
+    }
+    .create {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-top: 500px;
+        left: 100px;
+        margin-right: 0px;
+    }
+    .text1 {
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        margin-left: -150px;
+        margin-top: 300px;
+    }
+    .text1 h3 {
+        width: 400px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .text1 h2 {
+        width: 400px;
+        height: 50px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .text1 p {
+        width: 400px;
+        height: 300px;
+        margin-bottom: -50px;
+        margin-left: 30px;
+    }
+    .text1 button {
+        width: 400px;
+        height: 50px;
+        font-weight: bold;
+    }
+    /* Style  what we offer for mobil devices */
+    .wwoffer {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .compu {
+        width: 100%;
+        margin-left: -230px;
+        margin-right: 0px;
+    }
+    .text_heading h1 {
+        width: 400px;
+        height: 60px;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-top: 0px;
+        letter-spacing: 10px;
+        margin-bottom: 50px;
+        margin-left: 130px;
+    }
+    .wwoffer .compu img {
+        position: relative;
+        width: 450px;
+        height: 420px;
+        top: 400px;
+        left: 0px;
+    }
+    .compu .text_computer {
+        position: relative;
+        width: 335px;
+        color: white;
+        height: 350px;
+        top: 570px;
+        left: -43px;
+    }
+    #pc {
+        position: relative;
+        top: 70px;
+        color: black;
+        font: 20px Arial, sans-serif;
+        bottom: 50px;
+        width: 450px;
+        right: 65px;
+        font-weight: initial;
+    }
+    .compu button {
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .compu button:hover {
+        cursor: pointer;
+        font-size: 30px;
+    } 
+    /* Style number for mobile devices */
+    .number {
+        width: 100%;
+        height: 800px;
+        margin-top: -500px;
+    }
+    .numbers {
+        /* position: relative; */
+        width: 100%;
+        margin-top: 600px;
+        margin-left: -150px;
+    }
+    .numbers, .numbers1 {
+        position: relative;
+        left: 350px;
+        top: -100px;
+    }
+    .numbers, .numbers2 {
+        position: relative;
+        left: 350px;
+        top: -100px;
+    }
+    .numbers, .numbers3 {
+        position:relative;
+        left: 600px;
+        right: -400px;
+        top: -700px;
+    }
+    .numbers,.numbers4 {
+        position: relative;
+        left: -170px;
+        top: 200px;
+    }
+    .start {
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .start p {
+        position: relative;
+        width: 400px;
+        height: 50px;
+        left: 20px;
+        margin-right: -50px;
+        font-size: 32px;
+        padding: 10px;
+        text-align: center;
+    }
+    .start button {
+        width: 200px;
+        height: 70px;
+        text-align: center;
+        color: blue;
+        margin-top: 70px;
+        margin-right: 330px;
+       
+        background-color: white;
+    }
+    .start button:hover {
+        background-color: white;
+    }
+    .contact {
+        width: 100%;
+        margin-left: -150px;
+    }
+    .query {
+        width: 400px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .comment {
+        width: 420px;
+        margin-right: -220px;
+        margin-top: 50px;
+    }
+    .comment input[type="email"] {
+        width: 450px;
+    }
+    .comment button {
+        width: 160px;
+       
+        margin-left: -60px;
+    }
+    .comment button:hover {
+        width: 180px;
+        font-size: 21px;
+    }
+    /* Style footer for mobile device */
+    footer {
+        width: 100%;
+        height: 1100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -150px;
+        background-color: rgb(177, 177, 235); 
+    }
+    footer .kraj {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        margin-left: -150px;
+        background-color: rgb(177, 177, 235);
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .copyright {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        top: 50px;
+    }
+    footer .privacy {
+        position: relative;
+        width: 400px;
+        height: 50px;
+        right: 150px;
+        top: 0px;
+    }
+    #copy {
+       position: relative;
+       top:20px;
+    }
+    .info {
+        position: relative;
+        left: 100px;
+        top: -700px;  
+    }
+    .info img {
+        position: relative;
+        top: 0px;
+        margin-left: 0px;
+    }
+    .info p{
+        position: relative;
+        top: -100px;
+    }
+    .info a {
+        position: relative;
+        top: -100px;
+    }
+    .social a {
+        margin-top: 500px;
+    }
+    .social img {
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+    .footer-col1 {
+        position: absolute;
+        right: -200px;
+        top: 850px;
+    }
+    .footer-col1 ul {
+        position: relative;
+        border: 1px solid rgb(177, 177, 235);
+        top: -620px;
+        left: -350px;
+    }
+    .footer-col2 ul {
+        position: relative;
+        top: 220px;
+    }
+    .footer-col3 ul {
+        position: relative;
+        left: -350px;
+        top: 550px;
+    }
+    .footer-col1 ul li  {
+        margin-bottom: 100px;
+        width: 400px;
+        height: 30px;
+        text-align: justify;
+    }
+    /* .kraj, .footer-col2 {
+        position: relative; 
+        left: -600px;
+        top: 650px;
+    } */
+    /* .footer-col3 {
+        position: relative;
+        left: 0px;
+        top: 650px;
+    } */
+    /* .footer-col3 li {
+        margin-left: -100px;
+    } */
+    
+}

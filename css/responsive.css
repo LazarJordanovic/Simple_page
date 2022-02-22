@@ -1,0 +1,104 @@
+@media screen and (max-width:1300px){
+  body {
+    width: 100%;
+  }
+  /* Style for Were we are */
+  .addr {
+    width: 100%;
+    margin-left: -140px;
+  }
+  /* Style for slider */
+  .sld {
+    width: 100%;
+    margin-left: 20px;
+  }
+  /* Style for about */
+  .abt {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .abt img {
+    margin-left: -100px;
+  }
+  .text {
+    margin-right: 150px;
+  }
+  /* Style for services */
+  .serv {
+    width: 100%;
+    margin-left: -130px;
+  }
+  .second_staff {
+  margin-left: 520px;
+  }
+  .thirt_staff{
+    margin-right: 50px;
+  }
+  /* Style for history */
+  .history {
+    width: 100%;
+    margin-left: -140px;
+  }
+  .history img {
+    margin-right: 20px;
+  }
+  .history_text {
+    margin-left: 30px;
+  }
+  /* Style for creativity */
+  .create {
+    width: 100%;
+    margin-left: -150px;
+  }
+  .text_heading {
+    margin-left: -100px;
+  }
+  /* Style for what we offer  */
+  .compu img {
+    margin-left: 100px;
+  }
+  .text_computer {
+    position: relative;
+    width: 609px;
+    height: 500px;
+    margin-left: 200px;
+  }
+  /* Style for count and conntact */
+  .numbers {
+    width: 100%;
+    margin-left: -140px;
+  }
+  .numbers2 {
+    margin-left: 300px;
+  }
+  .numbers3 {
+    margin-left: 650px;
+  }
+  .numbers4 {
+    margin-left: 1050px;
+  }
+  /* Style for footer */
+  .kraj {
+    position: relative;
+    width: 100%;
+    margin-left: -120px;
+    border: 1px solid rgb(177, 177, 235);
+  }
+  .footer-col1 {
+    position: relative;
+    margin-left: -200px;
+  }
+  .footer-col1 ul li {
+    margin-left: -100px;
+  }
+  .footer-col2 ul li{
+    margin-left: -100px;
+  } 
+  .footer-col3 ul li{
+    margin-left: -100px;
+  }
+  .privacy {
+    position: relative;
+    left: -200px;
+  }
+}
